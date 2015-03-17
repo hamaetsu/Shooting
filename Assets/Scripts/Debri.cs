@@ -27,7 +27,7 @@ public class Debri : MonoBehaviour {
 		transform.RotateAround(targetPos, axis, angle * Time.deltaTime);
 	}
 
-	void onMouseDown() {
+	void OnMouseDown() {
 		Destroy(gameObject);
 	}
 }
